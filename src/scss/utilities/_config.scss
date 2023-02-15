@@ -1,0 +1,23 @@
+html,
+body {
+    height: auto;
+    font-size: 10px;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 1.6rem;
+    color: $black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    &__title {
+        margin-bottom: 3rem;
+    }
+}

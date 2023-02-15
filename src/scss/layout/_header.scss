@@ -1,0 +1,35 @@
+.#{$global} {
+    &-header {
+        padding: 4rem 0;
+
+        .site-navigation {
+            ul {
+                li {
+                    padding: 0 2rem;
+                    a {
+                        font-size: 1.8rem;
+                        font-weight: 500;
+                        transition: all 0.3s ease;
+                    }
+                    &:hover {
+                        a {
+                            color: #4989fa;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-primary {
+            font-size: 1.6rem;
+            padding: 0.8rem 2.4rem;
+            border-color: #4989fa;
+            background: #4989fa;
+            &:hover {
+                background: #020d2e;
+                border-color: #020d2e;
+            }
+        }
+
+    }
+}
