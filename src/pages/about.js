@@ -5,6 +5,7 @@ import News from "../components/news/News";
 function About() {
     return (
         <>
+            <h2>About Page</h2>
             <News/>
             <Calltoaction/>
         </>
